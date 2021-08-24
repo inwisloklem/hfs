@@ -1,0 +1,74 @@
+html,
+body,
+button,
+code,
+kbd,
+pre,
+samp {
+  font-family: 'Fixedsys Excelsior', sans-serif;
+  font-size: 62.5%;
+}
+
+html {
+  --error: #973020;
+  --primary-interactive: #c4c09d;
+  --primary-surface: #202020;
+}
+
+body {
+  background-color: var(--primary-surface);
+  overflow: hidden;
+  margin: 0;
+}
+
+.app {
+  padding: 2rem;
+  user-select: none;
+}
+
+.container {
+  display: flex;
+}
+
+.container > *:not(:last-of-type) {
+  margin-right: 1.6rem;
+}
+
+.message,
+.primaryButton {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.message {
+  color: var(--primary-interactive);
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.message.error {
+  color: var(--error);
+}
+
+.primaryButton {
+  background-color: transparent;
+  border: 0.2rem solid var(--primary-interactive);
+  color: var(--primary-interactive);
+  font-size: 1.8rem;
+  height: 4rem;
+  outline: none;
+  padding: 0 2rem;
+  transition: background-color, color ease-in-out 150ms;
+  width: 20rem;
+}
+
+.primaryButton:disabled {
+  opacity: 0.4;
+}
+
+.primaryButton:not(:disabled):hover {
+  background-color: var(--primary-interactive);
+  color: var(--primary-surface);
+  cursor: pointer;
+}
