@@ -23,7 +23,7 @@ func startApp(c *core.Control) {
 		JS:     js,
 		Title:  "HFS",
 		Height: 124,
-		Width:  456,
+		Width:  496,
 	})
 	app.Bind(c)
 	app.Run()

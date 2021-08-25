@@ -1,6 +1,6 @@
 # HighFleet Saver
 
-<img src="image.png" width="456">
+<img src="image.png" width="496">
 
 [HighFleet](https://store.steampowered.com/app/1434950/HighFleet) is a unique action-strategy game mixing arcade combat, exploration, management and diplomacy.
 However, the save system is inconvenient. The game allows you to do it only at certain rare points. Use this utility to save your progress.

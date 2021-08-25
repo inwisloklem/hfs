@@ -23,6 +23,7 @@ body {
 
 .app {
   padding: 2rem;
+  width: 49.6rem;
   user-select: none;
 }
 
@@ -60,7 +61,7 @@ body {
   outline: none;
   padding: 0 2rem;
   transition: background-color, color ease-in-out 150ms;
-  width: 20rem;
+  width: 22rem;
 }
 
 .primaryButton:disabled {
